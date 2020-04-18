@@ -22,7 +22,7 @@ Other than that, you can get it done however you see fit. We'll talk soon!
   - Add a number input that allows users to update their quantity or reflects the amount of times `Add to Cart` was clicked on the product. The quantity cannot be more than the inventory count.
   - Calculate price accordingly
   - Remove the product from cart with a `Remove` button
-- There should be a count next `Cart` heading that lists the number of unique products added to cart. For example: `Cart (3)`.
+- There should be a count next to the `Cart` heading that lists the number of unique products added to cart. For example: `Cart (3)`.
 - A `Total` section with the checkout amount for the cart.
 
 ### Follow Up
