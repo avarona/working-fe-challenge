@@ -1,8 +1,8 @@
-# Frontend Project
+# Cube Frontend Challenge
 
 ## Requirements
 
-This simple ecommerce site is almost complete! There are a few UX issues and bugs that you need to address to get us to the finish line. You can ask any question beforehand about requirements or tasks if something isn't clear, as with any client project: [Ask Us](mailto:keith@cubesoftware.com?&cc=ash@cubesoftware.com&subject=Question%20about%20code%20challenge)
+This simple ecommerce site is almost complete! There are a few UX issues and bugs that you need to address to get us to the finish line. You can ask any question beforehand about requirements or tasks if something isn't clear, as with any client project: [Ask Us](mailto:keith@cubesoftware.com?&cc=ash@cubesoftware.com&cc=alejandro@cubesoftware.com&subject=Question%20about%20code%20challenge)
 
 This should only take an hour or two, but take as long as you need. We expect you to do this on your own without help from anyone else. Answers are not found online. We expect you to fork this repo and treat it like a real client project. We're expecting the same level of care, good code, good commits, good questions, and to answer the questions bellow when you turn in your project. You'll be questioned about choices you made for solving the tasks.
 
@@ -31,6 +31,11 @@ Other than that, you can get it done however you see fit. We'll talk soon!
 - How else can we improve the experience of the site? What suggestions can you make to the product team and the development team?
 - What recommendations can you make to the development team for scalability?
 - What knowledge up front could have helped this go smoother or faster?
+
+## Submit Your Answers
+
+When you're done, push your code to a private GitHub repository under your username
+(e.g. github.com/your-username/frontend-challenge). Give access permissions for the repo to @jasonbellamy, @kilokeith, @avarona, and @ashiq-r31.
 
 ---
 
