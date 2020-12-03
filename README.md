@@ -2,11 +2,12 @@
 
 ## Requirements
 
-This simple ecommerce site is almost complete! There are a few UX issues and bugs that you need to address to get us to the finish line. You can ask any question beforehand about requirements or tasks if something isn't clear, as with any client project: [Ask Us](mailto:keith@cubesoftware.com?&cc=ash@cubesoftware.com&cc=alejandro@cubesoftware.com&subject=Question%20about%20code%20challenge)
+This simple eCommerce site is almost complete! There are a few UX issues and bugs that you need to address to get us to the finish line. You can ask any question beforehand and during about requirements, expectations, unclear goals or anything else that isn't clear; as with any client project: [Ask Us](mailto:keith@cubesoftware.com?&cc=ash@cubesoftware.com&cc=alejandro@cubesoftware.com&subject=Question%20about%20code%20challenge).
+Someone should get back to you soon, any time, any day. Don't worry about bothering us; just focus on completing the job to the best of your ability and making your client happy.
 
-This should only take an hour or two, but take as long as you need. We expect you to do this on your own without help from anyone else. Answers are not found online. We expect you to fork this repo and treat it like a real client project. We're expecting the same level of care, good code, good commits, good questions, and to answer the questions bellow when you turn in your project. You'll be questioned about choices you made for solving the tasks.
+This should only take an hour or two, but take as long as you need. We expect you to do this on your own without help from anyone else. Answers are not found online. We expect you to fork this repo and treat it like a real client project, not as a test. We're expecting the same level of care, good code, good commits, good questions, communication and to answer the questions bellow when you turn in your project. You'll be questioned about choices you made for solving the tasks.
 
-Other than that, you can get it done however you see fit. We'll talk soon!
+Other than that, you can get it done however you see fit. Show off as much or as little as you want. We'll talk soon! Good luck.
 
 ### Catalog
 
@@ -19,18 +20,19 @@ Other than that, you can get it done however you see fit. We'll talk soon!
 ### Cart
 
 - The cart should only list products once.
-  - Add a number input that allows users to update their quantity or reflects the amount of times `Add to Cart` was clicked on the product. The quantity cannot be more than the inventory count.
+  - Add a number input that allows users to update their quantity or reflects the amount of times `Add to Cart` was clicked on the product. The quantity cannot be more than the **inventory** count.
   - Calculate price accordingly
   - Remove the product from cart with a `Remove` button
 - There should be a count next to the `Cart` heading that lists the number of unique products added to cart. For example: `Cart (3)`.
 - A `Total` section with the checkout amount for the cart.
 
-### Follow Up
+### Follow Up Email (when you're finished)
 
 - Explain the flow of data from the store to the UI and back as simply as you can.
 - How else can we improve the experience of the site? What suggestions can you make to the product team and the development team?
 - What recommendations can you make to the development team for scalability?
 - What knowledge up front could have helped this go smoother or faster?
+- How was it working around these libraries? Anything trip you up?
 
 ## Submit Your Answers
 
