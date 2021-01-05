@@ -1,8 +1,14 @@
 # Cube Frontend Challenge
 
-## Requirements
+## Get Started
 
-This simple eCommerce site is almost complete! There are a few UX issues and bugs that you need to address to get us to the finish line. You can ask any question beforehand and during about requirements, expectations, unclear goals or anything else that isn't clear; as with any client project: [Ask Us](mailto:keith@cubesoftware.com?&cc=ash@cubesoftware.com&cc=alejandro@cubesoftware.com&cc=jason@cubesoftware.com&subject=Question%20about%20code%20challenge).
+1. Clone this repository `git clone https://github.com/cube-planning/frontend-challenge.git`
+2. `cd frontend-challenge/`
+3. `npm install`
+
+## Assigment
+
+This simple eCommerce site is almost complete! There are a few UX issues and bugs that you need to address to get us to the finish line. You can ask any question beforehand and during about requirements, expectations, unclear goals or anything else that isn't clear; as with any client project: [Ask Us](mailto:ash@cubesoftware.com&cc=alejandro@cubesoftware.com&cc=jason@cubesoftware.com&subject=Question%20about%20code%20challenge).
 Someone should get back to you soon, any time, any day. Don't worry about bothering us; just focus on completing the job to the best of your ability and making your client happy.
 
 This should only take an hour or two, but take as long as you need. We expect you to do this on your own without help from anyone else. Answers are not found online. We expect you to fork this repo and treat it like a real client project, not as a test. We're expecting the same level of care, good code, good commits, good questions, communication and to answer the questions bellow when you turn in your project. You'll be questioned about choices you made for solving the tasks.
@@ -26,7 +32,7 @@ Other than that, you can get it done however you see fit. Show off as much or as
 - There should be a count next to the `Cart` heading that lists the number of unique products added to cart. For example: `Cart (3)`.
 - A `Total` section with the checkout amount for the cart.
 
-### Follow Up Email (when you're finished)
+## Follow Up Email (when you're finished)
 
 - Explain the flow of data from the store to the UI and back as simply as you can.
 - How else can we improve the experience of the site? What suggestions can you make to the product team and the development team?
@@ -37,7 +43,7 @@ Other than that, you can get it done however you see fit. Show off as much or as
 ## Submit Your Answers
 
 When you're done, push your code to a private GitHub repository under your username
-(e.g. github.com/your-username/frontend-challenge). Give access permissions for the repo to @jasonbellamy, @kilokeith, @avarona, and @ashiq-r31.
+(e.g. github.com/your-username/frontend-challenge). Give access permissions for the repo to @jasonbellamy, @avarona, and @ashiq-r31.
 
 ---
 
