@@ -1,20 +1,17 @@
 import React from "react";
-import { useSelector } from "react-redux";
 import Flex, { FlexItem } from "styled-flex-component";
 import Product from "./Product";
 import Container from "./Container";
-import { selectProducts } from "../state/catalog/selectors";
+
+import fakeProduct from "../helpers/fakeProduct";
 
 const Catalog = () => {
-  const products = useSelector(selectProducts);
   return (
     <Container>
       <Flex full wrap={"true"}>
-        {products.map((product) => (
-          <FlexItem key={product.id} grow={1} shrink={1} basis="50%">
-            <Product {...product} />
-          </FlexItem>
-        ))}
+        <FlexItem grow={1} shrink={1} basis="50%">
+          <Product {...fakeProduct} />
+        </FlexItem>
       </Flex>
     </Container>
   );

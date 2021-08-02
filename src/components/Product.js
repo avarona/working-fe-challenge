@@ -1,6 +1,4 @@
 import React from "react";
-import { useDispatch } from "react-redux";
-import { addItem } from "../state/cart/slice";
 import styled from "styled-components";
 
 const ProductWrapper = styled.div`
@@ -37,16 +35,14 @@ const Badge = styled.span`
 `;
 
 const Product = (product) => {
-  const dispatch = useDispatch();
-  const handleAdd = (product) => dispatch(addItem({ product }));
   return (
     <ProductWrapper>
       <Badge>In Stock</Badge>
-      <ImageWrapper src={product.imgUrl} alt={product.name} />
+      <ImageWrapper src={product.image} alt={product.name} />
       <h2>{product.name}</h2>
       <p>{product.description}</p>
       <h4>${product.price}</h4>
-      <Button onClick={() => handleAdd(product)}>Add to cart</Button>
+      <Button onClick={() => {}}>Add to cart</Button>
     </ProductWrapper>
   );
 };
