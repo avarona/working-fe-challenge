@@ -1,12 +1,23 @@
-import { configureStore } from "@reduxjs/toolkit";
-import catalogReducer from "./catalog/slice";
-import cartReducer from "./cart/slice";
+import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
+import createSagaMiddleware from "redux-saga";
+import logger from "redux-logger";
+import rootReducer from "./slices";
+import rootSaga from "./sagas";
 
-export default configureStore({
+const sagaMiddleware = createSagaMiddleware();
+const middleware = [
+  ...getDefaultMiddleware({ thunk: false }),
+  sagaMiddleware,
+  logger,
+];
+
+const store = configureStore({
   devTools: true,
+  middleware,
   preloadedState: {},
-  reducer: {
-    catalog: catalogReducer,
-    cart: cartReducer,
-  },
+  reducer: rootReducer,
 });
+
+sagaMiddleware.run(rootSaga);
+
+export default store;
