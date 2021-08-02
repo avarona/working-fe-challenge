@@ -1,83 +1,80 @@
-# Cube Frontend Challenge
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=100px src="https://www.cubesoftware.com/images/logo.svg" alt="Project logo"></a>
+</p>
+
+# Frontend Challenge
 
 ## Get Started
 
-1. Clone this repository `git clone https://github.com/cube-planning/frontend-challenge.git`
-2. `cd frontend-challenge/`
-3. `npm install`
+Fork and clone this repo
 
-## Assigment
+```
+> cd frontend-challenge
+> npm install
+> npm start
+```
 
-This simple eCommerce site is almost complete! There are a few UX issues and bugs that you need to address to get us to the finish line. You can ask any question beforehand and during about requirements, expectations, unclear goals or anything else that isn't clear; as with any client project: [Ask Us](mailto:ash@cubesoftware.com&cc=alejandro@cubesoftware.com&cc=jason@cubesoftware.com&subject=Question%20about%20code%20challenge).
-Someone should get back to you soon, any time, any day. Don't worry about bothering us; just focus on completing the job to the best of your ability and making your client happy.
+## Overview
 
-This should only take an hour or two, but take as long as you need. We expect you to do this on your own without help from anyone else. Answers are not found online. We expect you to fork this repo and treat it like a real client project, not as a test. We're expecting the same level of care, good code, good commits, good questions, communication and to answer the questions bellow when you turn in your project. You'll be questioned about choices you made for solving the tasks.
+This simple eCommerce site is almost complete! There are a few UX issues and bugs that you need to address to get us to the finish line. Questions are encouraged, [Ask us](mailto:jason@cubesoftware.com?cc=alejandro@cubesoftware.com;alex.lee@cubesoftware.com;ash@cubesoftware.com&subject=Questions%20about%20code%20challenge) about requirements, expectations, and unclear goals. Someone should get back to you soon, any time, any day. Don't worry about bothering us; just focus on completing the job to the best of your ability and making your client happy.
 
-Other than that, you can get it done however you see fit. Show off as much or as little as you want. We'll talk soon! Good luck.
+The assignment should only take a few of hours, but take as long as you need. We expect you to do this on your own and treat it like a real client project with the same level of care, quality code and good commits. After completing the assignment, please also commit your answers to the questions [below](#follow-up-questions).
+
+Have fun, and good luck!
+
+## Assignment
 
 ### Catalog
 
-- Add a text input to filter the products by name. Below the input include a text that shows the count of the products filtered. For example: `10 products found`.
-- Show products as `Out of Stock` when the inventory count is 0.
-- When products are `Out of Stock`
-  - Desaturate the photo of the product
-  - Hide the `Add to Cart` button
+- Show all products in catalog
+  - `GET https://cube-fe-challenge-api.herokuapp.com/products`
+- Filter products by search words
+  - Create search bar at the top of the page
+  - Show search result count below the input (ie. `10 products found`)
+- Mark products as `Out of Stock`
+  - Should happen when product inventory count is 0
+  - Adjust product badge accordingly
+  - Desaturate the product image
+  - Disable the `Add to Cart` button
 
 ### Cart
 
-- The cart should only list products once.
-  - Add a number input that allows users to update their quantity or reflects the amount of times `Add to Cart` was clicked on the product. The quantity cannot be more than the **inventory** count.
-  - Calculate price accordingly
-  - Remove the product from cart with a `Remove` button
-- There should be a count next to the `Cart` heading that lists the number of unique products added to cart. For example: `Cart (3)`.
-- A `Total` section with the checkout amount for the cart.
+- Add product to cart
+  - Should happen when `Add to Cart` button is clicked
+  - Clicking `Add to Cart` should update existing cart item
+  - Cart should only have unique items
+- Update product from cart
+  - Create a number input field to edit quantity for each item
+  - Quantity should not exceed product inventory
+  - Quantity should not be below 1 item
+  - Updating quantity should update catalog if product is out of stock
+- Remove product from cart
+  - Create delete button to remove product from cart
+- Checkout cost
+  - Show total cost due at checkout
+  - Should be the sum of each cart item and their quantities
+- Count of unique items in cart
+  - Append the the count to the heading, ie. `Cart (3)`
 
-## Follow Up Email (when you're finished)
+Finished?
 
-- Explain the flow of data from the store to the UI and back as simply as you can.
-- How else can we improve the experience of the site? What suggestions can you make to the product team and the development team?
-- What recommendations can you make to the development team for scalability?
-- What knowledge up front could have helped this go smoother or faster?
-- How was it working around these libraries? Anything trip you up?
+Double check that the application runs smoothly, and you are comfortable deploying this to production. Will your client and other engineers be happy with your work? Have you thought about possible edge cases or improvements? Make final adjustments as needed.
 
-## Submit Your Answers
+<h2 id="follow-up-questions">Follow Up Questions</h2>
 
-When you're done, push your code to a private GitHub repository under your username
-(e.g. github.com/your-username/frontend-challenge). Give access permissions for the repo to @jasonbellamy, @avarona, and @ashiq-r31.
+**1.** Explain the flow of data from the store to the UI and back as simply as you can.
 
----
+**2.** How else can we improve the experience of the site? What suggestions can you make to the product team and the development team?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template. -- **Don't worry about building, testing or hosting. We'll pull down your code and evaluate it locally. Targeting latest Chrome on latest MacOS.**
+**3.** What recommendations can you make to the development team for scalability?
 
-## Available Scripts
+**4.** What knowledge up front could have helped this go smoother or faster?
 
-In the project directory, you can run:
+**5.** How was it working around these libraries? Anything trip you up?
 
-### `npm start`
+## Submit
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Send us a pull request of your forked repo. We'll review it and get back you as soon as possible.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More About CRA
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Thanks for taking the time to complete the assignment!
