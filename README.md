@@ -17,9 +17,9 @@ Fork and clone this repo
 
 ## Overview
 
-This simple eCommerce site is almost complete! There are a few UX issues and bugs that you need to address to get us to the finish line. Questions are encouraged, [Ask us](mailto:jason@cubesoftware.com?cc=alejandro@cubesoftware.com;alex.lee@cubesoftware.com;ash@cubesoftware.com&subject=Questions%20about%20code%20challenge) about requirements, expectations, and unclear goals. Someone should get back to you soon, any time, any day. Don't worry about bothering us; just focus on completing the job to the best of your ability and making your client happy.
+This simple eCommerce site is almost complete! There are a few UX issues to address and features we'd like to add to get us to the finish line. Questions are encouraged, [Ask us](mailto:jason@cubesoftware.com?cc=alejandro@cubesoftware.com;alex.lee@cubesoftware.com;greg.smith@cubesoftware.com;ash@cubesoftware.com&subject=Questions%20about%20code%20challenge) about requirements, expectations, and unclear goals. Someone will get back to you as soon as possible.
 
-The assignment should only take a few of hours, but take as long as you need. We expect you to do this on your own and treat it like a real client project with the same level of care, quality code and good commits. After completing the assignment, please also commit your answers to the questions [below](#follow-up-questions).
+The assignment should only take a few of hours, but take as long as you need. We expect you to do this on your own and treat it like a real client project with the same level of care, quality code and good commits. Feel free to edit any of the existing code. After completing the assignment, please also commit your answers to the questions [below](#follow-up-questions).
 
 Have fun, and good luck!
 
