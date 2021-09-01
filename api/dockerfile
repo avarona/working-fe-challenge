@@ -1,0 +1,8 @@
+FROM mongo-express
+WORKDIR /api
+COPY . .
+
+ENV MONGODB_URI "mongodb://db:27017/store"
+
+RUN npm install
+CMD ["npm", "start"]

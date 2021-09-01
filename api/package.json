@@ -1,0 +1,31 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "start:dev": "nodemon server.js",
+    "seed": "node ./seed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "jest": "^25.2.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.6",
+    "nodemon": "^2.0.11",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "mongo-import": "0.0.2",
+    "mongo-seeding": "^3.7.0",
+    "mongoimport": "^1.0.6"
+  }
+}
