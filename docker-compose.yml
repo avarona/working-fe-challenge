@@ -1,0 +1,17 @@
+version: "2"
+services:
+  web:
+    build: "./api"
+    links:
+      - db
+    ports:
+      - "3001:3001"
+    restart: on-failure
+  db:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+  db-seed:
+    build: "./api/seed"
+    links:
+      - db
