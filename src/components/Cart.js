@@ -3,7 +3,7 @@ import Flex, { FlexItem } from "styled-flex-component";
 import styled from "styled-components";
 import Container from "./Container";
 
-import fakeProduct from "../helpers/fakeProduct";
+import placeholderProduct from "../helpers/placeholderProduct";
 
 const CartWrapper = styled(Flex)`
   background-color: #f6f5f5;
@@ -46,7 +46,7 @@ const Cart = () => {
     <CartWrapper column full>
       <Container>
         <h2>Cart</h2>
-        <CartItem item={fakeProduct} />
+        <CartItem item={placeholderProduct} />
       </Container>
     </CartWrapper>
   );

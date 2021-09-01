@@ -1,7 +1,7 @@
 export default {
   id: 1,
-  name: "Fake Product",
-  description: "Too good to be true, must be fake...",
+  name: "Placeholder Product",
+  description: "Not a real product, just a placeholder",
   inventory: 1,
   price: 5,
   image:
