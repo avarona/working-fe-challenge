@@ -15,11 +15,19 @@ Fork and clone this repo
 > npm start
 ```
 
+Install [docker](https://docs.docker.com/compose/install/) and run our web api
+
+```
+> docker-compose up
+```
+
 ## Overview
 
-This simple eCommerce site is almost complete! There are a few UX issues to address and features we'd like to add to get us to the finish line. Questions are encouraged, [Ask us](mailto:jason@cubesoftware.com?cc=alejandro@cubesoftware.com;alex.lee@cubesoftware.com;greg.smith@cubesoftware.com;ash@cubesoftware.com&subject=Questions%20about%20code%20challenge) about requirements, expectations, and unclear goals. Someone will get back to you as soon as possible.
+We need help getting this eCommerce site up and running! A lot of the components are built out already, but we need to implement a few features and address some UX and code quality issues.
 
 The assignment should only take a few of hours, but take as long as you need. We expect you to do this on your own and treat it like a real client project with the same level of care, quality code and good commits. Feel free to edit any of the existing code. After completing the assignment, please also commit your answers to the questions [below](#follow-up-questions).
+
+Questions are encouraged, [Ask us](mailto:engineering-candidates-fe@cubesoftware.com&subject=Questions%20about%20code%20challenge) about requirements, expectations, and unclear goals. Someone will get back to you as soon as possible.
 
 Have fun, and good luck!
 
@@ -28,7 +36,7 @@ Have fun, and good luck!
 ### Catalog
 
 - Show all products in catalog
-  - `GET https://cube-fe-challenge-api.herokuapp.com/products`
+  - `GET http://localhost:3001/products`
 - Filter products by search words
   - Create search bar at the top of the page
   - Show search result count below the input (ie. `10 products found`)
